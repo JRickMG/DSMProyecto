@@ -15,12 +15,6 @@ https://drive.google.com/drive/folders/1dl_kDODX-C5VhiiTHUytZ-cyp1zLx_Xp?usp=sha
 
 Autores
 
-Miguel Antonio Campos Hernández - Programación, diseño, lógica y manuales
-
 José Ricardo Mejía Gámez - Programación, diseño, lógica y manuales
 
 William Ernesto Rodríguez Reyes - Programación, diseño, lógica y manuales
-
-Jennyfer Liseth Soto Chacón - Programación, diseño, lógica y manuales
-
-Luis Eduardo Rivera Martínez - Programación, diseño, lógica y manuales
