@@ -13,6 +13,10 @@ Manuales
 
 https://drive.google.com/drive/folders/1dl_kDODX-C5VhiiTHUytZ-cyp1zLx_Xp?usp=sharing
 
+Video de funcionamiento
+
+https://udbedu-my.sharepoint.com/:v:/g/personal/rr201800_alumno_udb_edu_sv/EWPko4fHqtNEsP5uji9Gw70Be8GaOEdp1sP6kSTLtgvvjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SlzS7e
+
 Autores
 
 José Ricardo Mejía Gámez - Programación, diseño, lógica y manuales
