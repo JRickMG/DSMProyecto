@@ -1,17 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".AppointmentFragment">
+<!-- res/layout/crear_cita.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
+    <!-- Título -->
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Fragment Citas"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"
-        />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crear Cita"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center_horizontal"/>
 
-</RelativeLayout>
+    <!-- Campo de selección de paciente -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar Paciente"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+    <Spinner
+            android:id="@+id/spinnerPaciente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+    <!-- Campo de selección de doctor -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar Doctor"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+    <Spinner
+            android:id="@+id/spinnerDoctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+    <!-- Campo de selección de fecha -->
+    <TextView
+            android:id="@+id/textViewFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar Fecha"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+    <Button
+            android:id="@+id/buttonFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar Fecha"
+            android:layout_marginTop="8dp"/>
+
+    <!-- Campo de descripción -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+    <EditText
+            android:id="@+id/editTextDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción de la cita"
+            android:layout_marginTop="8dp"/>
+
+    <!-- Botón para guardar la cita -->
+    <Button
+            android:id="@+id/buttonGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar Cita"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

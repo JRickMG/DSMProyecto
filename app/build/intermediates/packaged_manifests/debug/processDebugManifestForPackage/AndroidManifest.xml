@@ -29,6 +29,12 @@
         android:theme="@style/Theme.VetStaBarbaraUDB" >
         <activity
             android:name="com.udb.vetstabarbaraudb.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.udb.vetstabarbaraudb.RegistrarActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.udb.vetstabarbaraudb.LoginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

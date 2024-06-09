@@ -17,28 +17,48 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/asap</item>
     </array>
+    <color name="Air_blue">#779CAB</color>
+    <color name="Dark_slate_gray">#35524A</color>
+    <color name="Emerald">#32DE8A</color>
+    <color name="Slate_gray">#627C85</color>
+    <color name="Tiff_blue">#A2E8DD</color>
     <color name="black">#FF000000</color>
     <color name="dark_grey">#616161</color>
     <color name="ligh_salmon">#F85F6A</color>
     <color name="light_grey">#D2DAE2</color>
     <color name="salmon">#F85F6A</color>
     <color name="white">#FFFFFFFF</color>
-    <dimen name="button_height_fixed">10dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_height_fixed">6dp</dimen>
     <string name="agregar_usuario">Agregar Usuario</string>
     <string name="app_name">VetStaBarbaraUDB</string>
     <string name="asistentes">Asistentes</string>
     <string name="btnIniciarses">Iniciar Sesión</string>
+    <string name="citas_anteriores">Citas anteriores</string>
+    <string name="citas_de_hoy">Citas de Hoy</string>
     <string name="close_nav">Cerrar Navigation Drawer</string>
     <string name="editar_usuario">Editar Usuario</string>
     <string name="eliminar_usuario">Eliminar Usuario</string>
+    <string name="fecha">Fecha</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="historial">Historial</string>
+    <string name="hora">Hora</string>
+    <string name="hora_de_cita">Hora de cita</string>
     <string name="msgBienvenida">¡Hola! Es bueno verte de nuevo</string>
     <string name="nomVet">Veterinaria Santa Bárbara</string>
     <string name="open_nav">Abrir Navigation Drawer</string>
+    <string name="paciente">Paciente</string>
+    <string name="pacientes">Pacientes</string>
+    <string name="programar_cita">Programar Cita</string>
+    <string name="registrar_paciente">Registrar Paciente</string>
+    <string name="ver_citas_de_hoy">Ver Citas de Hoy</string>
+    <string name="ver_historial">Ver Historial</string>
+    <string name="veterinario">Veterinario</string>
     <string name="veterinarios">Veterinarios</string>
     <style name="Base.Theme.VetStaBarbaraUDB" parent="Theme.Material3.DayNight.NoActionBar">
         
-         <item name="colorPrimary">@color/salmon</item>
+        <item name="colorPrimary">@color/salmon</item>
         <item name="colorPrimaryVariant">@color/salmon</item>
         <item name="android:statusBarColor">@color/salmon</item>
     </style>

@@ -1325,6 +1325,11 @@ attr yearTodayStyle
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
 bool mtrl_btn_textappearance_all_caps
+color Air_blue
+color Dark_slate_gray
+color Emerald
+color Slate_gray
+color Tiff_blue
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -2182,6 +2187,8 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
 dimen appcompat_dialog_background_inset
 dimen button_height_fixed
 dimen cardview_compat_inset_shadow
@@ -2985,10 +2992,14 @@ drawable baseline_chevron_right_24
 drawable baseline_close_24
 drawable baseline_format_list_bulleted_24
 drawable baseline_home_24
+drawable baseline_lock_24
 drawable baseline_medical_services_24
 drawable baseline_note_add_24
+drawable baseline_person_24
 drawable baseline_pets_24
+drawable baseline_remove_red_eye_24
 drawable baseline_settings_24
+drawable baseline_shopping_cart_24
 drawable baseline_sticky_note_2_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -3014,6 +3025,8 @@ drawable ic_call_decline
 drawable ic_call_decline_low
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_dashboard_black_24dp
+drawable ic_home_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -3024,6 +3037,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_notifications_black_24dp
 drawable ic_search_black_24
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3206,6 +3220,10 @@ id btnRegisterPatient
 id btnScheduleAppointment
 id btnTodayAppointments
 id btnViewHistory
+id button
+id button2
+id buttonFecha
+id buttonGuardar
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3280,6 +3298,10 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editTextDescripcion
+id editTextText
+id editTextTextPassword
+id editTextTextPassword2
 id edit_query
 id edit_text_id
 id elastic
@@ -3318,6 +3340,8 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id guideline
+id guideline2
 id header_title
 id hide_ime_id
 id hideable
@@ -3352,6 +3376,7 @@ id linear
 id listMode
 id list_item
 id m3_side_sheet
+id main
 id marquee
 id masked
 id match_constraint
@@ -3462,6 +3487,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id passwordLogin
 id password_toggle
 id path
 id pathRelative
@@ -3524,6 +3550,8 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinnerDoctor
+id spinnerPaciente
 id spline
 id split_action_bar
 id spread
@@ -3569,6 +3597,18 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView1
+id textView10
+id textView2
+id textView3
+id textView4
+id textView5
+id textView6
+id textView7
+id textView8
+id textView9
+id textViewFecha
 id textViewTitle
 id text_input_end_icon
 id text_input_error_icon
@@ -3604,6 +3644,7 @@ id useLogo
 id userimg
 id username
 id usertype
+id usuarioLogin
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3757,8 +3798,10 @@ layout fragment_appointment
 layout fragment_home
 layout fragment_patients
 layout fragment_record
+layout fragment_register
 layout fragment_settings
 layout fragment_users
+layout fragmento_login
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout m3_alert_dialog

@@ -2,8 +2,15 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="salmon">#F85F6A</color> <!-- Color principal de la app -->
-    <color name="light_grey">#D2DAE2</color> <!-- Color de iconos no seleccionados, placeholders/detalles -->
-    <color name="ligh_salmon">#F85F6A</color> <!-- Color para highlights (Opacidad entre un 10% y 20%) -->
-    <color name="dark_grey">#616161</color> <!-- Color de iconos -->
+    <color name="Dark_slate_gray">#35524A</color>
+    <color name="Slate_gray">#627C85</color>
+    <color name="Air_blue">#779CAB</color>
+    <color name="Tiff_blue">#A2E8DD</color>
+    <color name="Emerald">#32DE8A</color>
+    <color name="salmon">#F85F6A</color>
+    <color name="dark_grey">#616161</color>
+    <color name="light_grey">#D2DAE2</color>
+    <color name="ligh_salmon">#F85F6A</color>
+
+
 </resources>
